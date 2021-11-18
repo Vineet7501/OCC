@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hobbies</title>
+    <!-- All JS libraries must be added before </head> -->
+    <script src="js/konckout.js"></script>
+  </head>
+  <body>
+    <div>
+      <label for="hobbies"> Hobbies</label>
+      <input type="text" data-bind="value: hobbies" />
+    </div>
+    <div>
+      <!-- Welcome <span id="result"></span> -->
+      My Hobbies <span data-bind="text: hobbies"></span>
+    </div>
+    <!-- Any custom js code must be added before </body> -->
+    <script>
+      //Using function
+      function ViewModel() {
+        this.hobbies = ko.observable("Enter Hobbies");
+      }
+      const viewModel = new ViewModel();
+      ko.applyBindings(viewModel);
+    </script>
+  </body>
+</html>
