@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+header h1{
+    color: cyan;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;    
+}
+section{
+    display: flexbox;
+    text-align: center;
+}
+#errFirstName{
+    color:red;
+}
+
+footer h6{
+    color: cyan;    
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;       
+}
