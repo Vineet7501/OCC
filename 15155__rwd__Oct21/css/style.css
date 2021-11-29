@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*================= side navigation bar =====================*/
+  .frontcolorglob{
+      color: #b1aeae;
+
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #003d63;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #burgerI {
+    display: none;
+  }
+  
+  #ellips {
+    display: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #burgerM {
+    display: none;
+    font-size: 13px;
+  }
+  /*================= side navigation End =====================*/
+  
+  /*=========== My Profile start ============= */
+  .container-fluid {
+    padding: 0;
+  }
+  
+  .profilenav {
+    background-color: #003d63;
+    color: #fff;
+    padding: 10px 100px;
+    font-size: 20px;
+  }
+  /* ================== My profile End  ========== */
+  
+  /* ============== Alert box Start ============== */
+  .alert {
+    background-color: #d9edf7;
+    font-size: 14px;
+    color: #31708f;
+  }
+  /* ===  Alert box End  === */
+  
+  /* ==============  Button Start  ========== */
+  .container #btn {
+    background-color: #00a6d6;
+    border: none;
+  }
+  #btn a {
+    color: #fff;
+    padding: 6px;
+    font-size: 14px;
+    display: block;
+  }
+  #btn a:hover {
+    background-color: grey;
+    color: #fff;
+    text-decoration: none;
+  }
+  /* =============  Button End  ================= */
+  
+  /*================== container Start ====================*/
+  .profile-dp {
+    margin-left: 38%;
+  }
+  
+  .phone {
+    border-bottom: 1px dotted black;
+  }
+  
+  #orag_imgs {
+    border-radius: 50%;
+  }
+  
+  .card {
+    background-color: #ffffff;
+  }
+  
+  .cf-1 {
+    background-color: #eeeeee;
+  }
+  
+  /*================== container  End ====================*/
+  
+  /*================== Description box  Start====================*/
+  .warning_msg {
+    border: 1px solid gold;
+    background-color: #fcf8e3;
+    font-size: 12px;
+    justify-content: center;
+  }
+  
+  /*================== Description box  end====================*/
+  
+  /* .footerimage {
+    width: 100% !important;
+    height: auto !important;
+  } */
+  
+  /*================== footer start ====================*/
+  
+  .footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .fa {
+    font-size: 24px;
+  }
+  /*================== footer end ====================*/
+  
+  /*================== Media queries start ====================*/
+  @media screen and (max-width: 776px) {
+    .container {
+      width: 100%;
+    }
+    .img_logo {
+      margin-left: 0;
+    }
+    .fa {
+      font-size: 15px;
+    }
+    #para {
+      font-size: 12px;
+    }
+    #img1 {
+      width: 80px;
+      margin-top: 5px;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .btn-group {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    #para {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 991px) {
+    #ellips {
+      display: block;
+      font-size: 20px;
+      margin-top: 5px;
+    }
+  }
+  
+  @media screen and (max-width: 991px) {
+    #burgerM {
+      display: block;
+    }
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {
+      padding-top: 15px;
+    }
+    .sidenav a {
+      font-size: 18px;
+    }
+  }
+  
+  /*================== Media queries end ====================*/
